@@ -31,6 +31,8 @@ ALLOWED_HOSTS = [*]
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
+    'django.contrib.staticfiles',
     'django.contrib.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
